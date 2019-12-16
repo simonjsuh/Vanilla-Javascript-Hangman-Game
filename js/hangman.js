@@ -19,7 +19,7 @@ let answer = '';
 let maxWrong = 6;
 let mistakes = 0;
 let guessed = [];
-let wordStasus = null;
+let wordStatus = null;
 
 function randomWord() {
   answer = programming_languages[Math.floor(Math.random() * programming_languages.length)];
